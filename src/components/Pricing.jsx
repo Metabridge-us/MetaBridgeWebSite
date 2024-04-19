@@ -21,7 +21,8 @@ function Pricing() {
                 <RightLine/>
             </div>
             <div className='flex justify-center mt-10'>
-                <a className='text-xs font-code font-bold tracking-wider uppercase border-b' href="#Pricing">See the full details</a>
+
+                <button className='text-xs font-code font-bold tracking-wider uppercase border-b'>See the full details</button>
             </div>
         </div>
     </Section>
