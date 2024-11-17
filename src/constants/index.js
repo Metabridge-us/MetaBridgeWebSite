@@ -1,3 +1,13 @@
+import SoundWave from '../assets/SoundWave.gif'
+import UserOne from '../assets/UserOne.webp'
+import UserTwo from '../assets/UserTwo.webp'
+import AwardImge from '../assets/AwardImge.png'
+  import coaching from '../assets/coaching.png'
+  import XLogo from '../assets/XLogo.png'
+  import FacebookLogo from '../assets/FacebookLogo.png'
+  import InstagramLogo from '../assets/InstagramLogo.png'
+  import YoutubeLogo from '../assets/YoutubeLogo.png'
+  import LinkeLogo from '../assets/LinkeLogo.png'
 import {
     benefitIcon1,
     benefitIcon2,
@@ -94,38 +104,40 @@ import {
   export const roadmap = [
     {
       id: "0",
-      title: "Voice recognition",
-      text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-      date: "May 2023",
+      title: "Create Membership Areas and Close More Deals",
+      text: "Create a thriving community for your business or for your clients by using our Membership Platform. Our thriving community of the most successful and visionary digital marketers on the planet.",
       status: "done",
-      imageUrl: roadmap1,
+      imageUrl: SoundWave,
+      user:UserOne,
+      userTwo: UserTwo,
+      speech:"I felt completely supported as soon as I join the platform...These guys care about my business and have taken my business to the next level.",
       colorful: true,
     },
     {
       id: "1",
-      title: "Gamification",
-      text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-      date: "May 2023",
-      status: "progress",
-      imageUrl: roadmap2,
+      title: "Grow Your Business With...",
+      text: "THOUSANDS of other marketers to learn how they’re being successful and growing their business with HighLevel...and how you can do the same too..",
+      status: "done",
+      imageUrl: coaching,
     },
     {
       id: "2",
-      title: "Chatbot customization",
-      text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-      date: "May 2023",
+      title: "Award-Winning Support",
+      text: "We are striving to offer the best possible support to our customers..",
       status: "done",
-      imageUrl: roadmap3,
+      imageUrl:AwardImge,
     },
     {
       id: "3",
-      title: "Integration with APIs",
-      text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-      date: "May 2023",
-      status: "progress",
+      title: "We're In The Business Of Helping You Grow Your Business",
+      text: "HighLevel is the first-ever all-in-one platform that will give you the tools, support and resources you need to succeed and crush your marketing goals..",
+      status: "done",
       imageUrl: roadmap4,
+      
+     
     },
   ];
+  
   
   export const collabText =
     "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
@@ -208,35 +220,26 @@ import {
   export const pricing = [
     {
       id: "0",
-      title: "Basic",
-      description: "AI chatbot, personalized recommendations",
-      price: "0",
+      title: "Starter",
+      price: "97.00",
       features: [
-        "An AI chatbot that can understand your queries",
-        "Personalized recommendations based on your preferences",
-        "Ability to explore the app and its features without any cost",
+        "ALL THE TOOLS TO CAPTURE More LEADS",
+        "NURTURE & CLOSE LEADS Into customers",
+        "FULL ONLINE BOOKING, PIPELINES, SOCIAL CAL, WEBSITE BUILDER, AND MORE!",
+        "UNLIMITED CONTACTS & USERS, add as many contacts & users as you need!",
+        "Setup up to Three Sub-Accounts"
       ],
     },
+    
     {
       id: "1",
-      title: "Premium",
-      description: "Advanced AI chatbot, priority support, analytics dashboard",
-      price: "9.99",
+      title: "Unlimited",
+      price: "297",
       features: [
-        "An advanced AI chatbot that can understand complex queries",
-        "An analytics dashboard to track your conversations",
-        "Priority support to solve issues quickly",
-      ],
-    },
-    {
-      id: "2",
-      title: "Enterprise",
-      description: "Custom AI chatbot, advanced analytics, dedicated account",
-      price: null,
-      features: [
-        "An AI chatbot that can understand your queries",
-        "Personalized recommendations based on your preferences",
-        "Ability to explore the app and its features without any cost",
+        "EVERYTHING IN THE STARTER PLAN",
+        "API Access - Integrate With anything",
+        "unlimited sub-accounts - As many client accounts as you need for one price!",
+        "BRANDED desktop app - Custom domains and complete control over the look and feel of the platform!"
       ],
     },
   ];
@@ -297,32 +300,32 @@ import {
   export const socials = [
     {
       id: "0",
-      title: "Discord",
-      iconUrl: discordBlack,
-      url: "#",
+      title: "X",
+      iconUrl: XLogo,
+      url: "https://x.com/gohighlevel",
     },
     {
       id: "1",
-      title: "Twitter",
-      iconUrl: twitter,
-      url: "#",
+      title: "Facebook",
+      iconUrl: FacebookLogo,
+      url: "https://www.facebook.com/highlevelreviews",
     },
     {
       id: "2",
       title: "Instagram",
-      iconUrl: instagram,
-      url: "#",
+      iconUrl: InstagramLogo,
+      url: "https://www.instagram.com/gohighlevel/",
     },
     {
       id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
+      title: "Youtube",
+      iconUrl: YoutubeLogo,
+      url: "https://www.youtube.com/channel/UCXFiV4qDX5ipE-DQcsm1j4g",
     },
     {
       id: "4",
-      title: "Facebook",
-      iconUrl: facebook,
-      url: "#",
+      title: "LinkedIn",
+      iconUrl: LinkeLogo,
+      url: "https://www.linkedin.com/company/highlevel",
     },
   ];
