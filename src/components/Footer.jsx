@@ -9,13 +9,13 @@ const Footer = () => {
         <p  className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
-        <p  className="text-n-4">CONTACT US
-          <p>Corporate HQ</p>
+        <div className="text-n-4">CONTACT US
+        <p>Corporate HQ</p>
           <p>400 North Saint Paul St.</p>
           <p>Suite 920</p>
           <p>Dallas, Texas 75201</p>
           Toll Free: <span className="text-purple-500">(888) 732-4197</span> 
-        </p>
+        </div>
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
             <a
