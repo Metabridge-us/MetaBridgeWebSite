@@ -93,7 +93,7 @@ const Hero = () => {
       customPaddings
       
     >
-      <img  className="absolute -top-52 opacity-35  w-full h-full md:w-full bg-cover" src={NTHO} alt="" />
+      <motion.img initial={{opacity:"0"}} animate={{opacity:"10%"}} transition={{duration:5}}  className="absolute -top-52 opacity-35  w-full h-full md:w-full bg-cover" src={NTHO} alt="" />
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <div className="w-full mb-4">
